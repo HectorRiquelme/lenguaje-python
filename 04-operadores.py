@@ -5,53 +5,64 @@ tema: 04 - operadores
        C - operadores de comparación
        D - operadores lógicos
 
-ejercicio: 01 - calcular area de un rectangulo
-           02 - par o impar
-           02 - mayoria de edad
-           03 - tienda de libros
+ejercicio: 
+01 - calcular area de un rectangulo
+02 - par o impar
+03 - mayoria de edad
+04 - tienda de libros
 '''
-#:::::A - operadores aritmeticos:::::
+'''
+::::::::::::::::::::::::::::::::::::::::::
+       A - operadores aritmeticos
+::::::::::::::::::::::::::::::::::::::::::
 
-## Los operadores aritmeticos son utilizados para realizar
-## calculos matematicos, los cuales son:
+Los operadores aritmeticos son utilizados para realizar
+calculos matematicos, los cuales son:
 
-## suma              : +
-## resta             : -
-## multiplicacion    : *
-## division          : /
-## division (enteros): //
-## resto (mod)       : %
+suma              : +
+resta             : -
+multiplicacion    : *
+division          : /
+division (enteros): //
+resto (mod)       : %
 
-#:::::B - operadores de asignación:::::
+::::::::::::::::::::::::::::::::::::::::::
+       B - operadores de asignación
+::::::::::::::::::::::::::::::::::::::::::
 
-## son utilizados para alterar el valor de una variable
-## tomando como base su valor actual:
+son utilizados para alterar el valor de una variable
+tomando como base su valor actual:
 
-## sumar algo a una variable       : variable += 1
-## resta algo a una variable       : variable -= 1
-## multiplicar algo a una variable : variable *= 1
-## divir algo a una variable       : variable /= 1
+sumar algo a una variable       : variable += 1
+resta algo a una variable       : variable -= 1
+multiplicar algo a una variable : variable *= 1
+divir algo a una variable       : variable /= 1
 
-#:::::C - operadores de comparación:::::
+::::::::::::::::::::::::::::::::::::::::::
+       C - operadores de comparación
+::::::::::::::::::::::::::::::::::::::::::
 
-## igual         que :   ==
-## distinto      que :   !=
-## mayor         que :   >
-## mayor o igual que :   >=
-## menor         que :   <
-## menor o igual que :   <=
+       igual         que :   ==
+       distinto      que :   !=
+       mayor         que :   >
+       mayor o igual que :   >=
+       menor         que :   <
+       menor o igual que :   <=
 
-#:::::D - operadores lógicos:::::
+::::::::::::::::::::::::::::::::::::::::::
+       D - operadores lógicos
+::::::::::::::::::::::::::::::::::::::::::
 
-#and
-#or
-#not
-
-#--------------------------------------------------------------------------------
-#:::::01 - calcular area de un rectangulo:::::
-
-from pip import main
-
+              -and
+              -or
+              -not
+'''
+#--------------------------------------------------------
+'''
+::::::::::::::::::::::::::::::::::::::::::
+   01 - calcular area de un rectangulo
+::::::::::::::::::::::::::::::::::::::::::
+'''
 
 print('\n------ 01 - calcular area de un rectangulo ------\n')
 
@@ -64,7 +75,11 @@ area = alto * ancho
 print(f'\nperimetro del rectangulo : {perimetro}')
 print(f'\narea del rectangulo : {area}')
 
-#:::::02 - par o impar:::::
+'''
+::::::::::::::::::::::::::::::::::::::::::
+   01 - 02 - par o impar
+::::::::::::::::::::::::::::::::::::::::::
+'''
 
 print('\n----- 02 - par o impar -----\n')
 
@@ -78,7 +93,11 @@ else:
        print(f'\nel numero ingresado [{numero_ingresado}] es impar')
 
 
-#:::::03 - mayor de de edad:::::
+'''
+::::::::::::::::::::::::::::::::::::::::::
+       03 - mayor de de edad
+::::::::::::::::::::::::::::::::::::::::::
+'''
 
 print('\n----- 03 - mayor de de edad -----\n')
 
@@ -89,7 +108,11 @@ if edad < 18:
 else:
        print('es mayor de edad')
 
-#:::::04 - tienda de libros:::::
+'''
+::::::::::::::::::::::::::::::::::::::::::
+       04 - tienda de libros
+::::::::::::::::::::::::::::::::::::::::::
+'''
 
 print('\n----- 04 - tienda de libros -----\n')
 

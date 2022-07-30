@@ -3,45 +3,55 @@ tema: 03 - tipo de datos
        A - tipos de datos existentes
        B - identificar el tipo de dato de una variable
 
-ejercicio: 01 - imprimir los tipos de datos
-           02 - califica tu dia
+ejercicio: 
+01 - imprimir los tipos de datos
+02 - califica tu dia
 '''
+'''
+::::::::::::::::::::::::::::::::::::::::::
+       A - tipos de datos existentes
+::::::::::::::::::::::::::::::::::::::::::
 
-#:::::A - tipos de datos existentes:::::
+los tipos de datos que exiten en python son los siguientes
 
-## los tipos de datos que exiten en python son los siguientes
+int    : entero
+complex: complejo
+float  : flotante
+str    : string
+bool   : boleano
 
-## int    : entero
-## complex: complejo
-## float  : flotante
-## str    : string
-## bool   : boleano
+csi categorizamos, los tipos de datos existentes serían:
 
-## csi categorizamos, los tipos de datos existentes serían:
+Numeric :         - Integer            : int
+                  - Complex            : compĺex
+                  - Float              : float
 
-## Numeric :         - Integer            : int
-##                   - Complex Number     : compĺex
-##                   - Float              : float
-###############################################
-##                   # Dictionary         : dict
-###############################################
-##                   # Boolean            : bool
-###############################################
-##                   # Set                : set
-###############################################
-## Sequence type :   - String             : str
-##                   - List               : list
-##                   - Tuple              : tuple
+                  # Dictionary         : dict
 
-#:::::B - identificar el tipo de dato de una variable:::::
+                  # Boolean            : bool
 
-## se puede determinar el tipado de la variable con la función 'type(<variable>)'
+                  # Set                : set
 
+Sequence type :   - String             : str
+                  - List               : list
+                  - Tuple              : tuple
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+ B - identificar el tipo de dato de una variable
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ se puede determinar el tipado de la variable con la función 'type(<variable>)'
+
+'''
 #--------------------------------------------------------------------------------
 
-#:::::01 - imprimir los tipos de datos:::::
-print("\n\n")
-print("imprimir los tipos de datos\n\n")
+'''
+::::::::::::::::::::::::::::::::::::::::::::::::
+01 - imprimir los tipos de datos
+::::::::::::::::::::::::::::::::::::::::::::::::
+'''
+
+print("\n01 - imprimir los tipos de datos\n")
 
 entero = 1
 print("entero:",type(entero))
@@ -70,7 +80,12 @@ print("lista:",type(lista))
 tupla = ("dato1",2,"dato3")
 print("tupla:",type(tupla))
 
-#:::::02 - califica tu dia:::::
+'''
+::::::::::::::::::::::::::::::::::::::::::::::::
+       02 - califica tu dia
+::::::::::::::::::::::::::::::::::::::::::::::::
+'''
+print("\n02 - califica tu dia\n")
 
 calificacion = input('califica tu día (rango del 1 al 10)')
 
