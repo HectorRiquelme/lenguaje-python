@@ -54,31 +54,31 @@ Sequence type :   - String             : str
 print("\n01 - imprimir los tipos de datos\n")
 
 entero = 1
-print("entero:",type(entero))
+print("entero:",type(entero))             #resultado: <int>
 
 flotante = 1.22
-print("flotante:",type(flotante))
+print("flotante:",type(flotante))         #resultado: <float>
 
 complejo = complex(8,5)
-print("complejo:",type(complejo))
+print("complejo:",type(complejo))         #resultado: <complex>
 
 diccionario= {'clave':'dato1','clave_dos':'dato2'}
-print("diccionario:",type(diccionario))
+print("diccionario:",type(diccionario))   #resultado: <dict>
 
 boleano = True
-print("boleano:",type(boleano))
+print("boleano:",type(boleano))           #resultado: <bool>
 
 seter = {"valor1","valor2",3}
-print("seter:",type(seter))
+print("seter:",type(seter))               #resultado: <set>
 
 cadena = "string"
-print("cadena:",type(cadena))
+print("cadena:",type(cadena))             #resultado: <str>
 
 lista = [1,2,"texto",4.21]
-print("lista:",type(lista))
+print("lista:",type(lista))               #resultado: <list>
 
 tupla = ("dato1",2,"dato3")
-print("tupla:",type(tupla))
+print("tupla:",type(tupla))               #resultado: <tuple>
 
 '''
 ::::::::::::::::::::::::::::::::::::::::::::::::

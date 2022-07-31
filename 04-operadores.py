@@ -123,8 +123,6 @@ envio= input('envio del libro gratuito? (True or False): ')
 
 envio = bool(envio)
 
-
-
 print(f'''\n
 nombre del libro : {nombre} \n
 id del libro : {id} \n
