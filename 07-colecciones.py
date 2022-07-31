@@ -141,12 +141,18 @@ estos son modificables y no poseen un orden especifico (noposeen indices)
 
 3-. eliminar elemento:
 
-        variable_set.discard("dato3")   #resultados posibles=   {"dato1":"datito1","dato2":"datito2} #orden aleatorio
-                                                                {"dato2":"datito2","dato1":"datito1} #orden aleatorio
--. eliminar elemento:
+        diccionario.pop("dato3")  
 
-        variable_set.discard("dato3")   #resultados posibles=   {"dato1","dato2"} #orden aleatorio
-                                                                {"dato2","dato1"} #orden aleatorio
+4-. leer elemento:
+
+        diccionario.get("dato1")   #resultados posibles=   {"datito1"}
+
+5-. formas de reccorer diccionarios:
+
+        diccionario.items()
+        diccionario.values()
+        diccionario.keys()
+
 '''
 
 #----------------------------------------------
