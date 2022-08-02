@@ -9,7 +9,6 @@ ejercicio:
 01 - funcion con *args para sumar 
 02 - funcion con *args para multiplicar
 03 - calculadora de impuestos
-04 - convertidor de temperaturas
 
 '''
 
@@ -71,8 +70,19 @@ que la funcion deba retornar
         D - argumentos variables
 ::::::::::::::::::::::::::::::
 
+hablamos de argumentos variables cuando una función es capaz de recibir
+más de un valor de un argumento, donde estos no han especificados.
+Las formas utilizadas para ingresar argumentos variables a una funciones
+es;
+ mediante un parametro tipo tupla, ateponiendo un asterico al parametro:
+ 
+        def funcion(*args)
 
+ o un parametro tipo diccionario, anteponiendo dos asteriscos al parametro:
 
+        def funcion(**wargs)
+
+    
 '''
 
 #----------------------------------------------
@@ -83,6 +93,17 @@ que la funcion deba retornar
 ::::::::::::::::::::::::::::::::::::::::::::::::
 '''
 
+print(f'\n01 - funcion con *args para sumar\n')
+
+def sumar(*args) -> int:
+    
+    resultado = 0
+    for valor in args:
+        resultado += valor
+
+    return resultado
+
+print('resultado de suma:',sumar(4,5))
 
 '''
 ::::::::::::::::::::::::::::::::::::::::::::::::
@@ -90,14 +111,34 @@ que la funcion deba retornar
 ::::::::::::::::::::::::::::::::::::::::::::::::
 '''
 
+print(f'\n02 - funcion con *args para multiplicar\n')
+
+def multiplicar(*args) -> int:
+    
+    resultadom = 1
+    
+    for valor in args:
+        resultadom *= valor
+
+    return resultadom
+print('resultado de multiplicacion:',multiplicar(4,5))
+
+
 '''
 ::::::::::::::::::::::::::::::::::::::::::::::::
     03 - calculadora de impuestos
 ::::::::::::::::::::::::::::::::::::::::::::::::
 '''
 
-'''
-::::::::::::::::::::::::::::::::::::::::::::::::
-    04 - convertidor de temperaturas
-::::::::::::::::::::::::::::::::::::::::::::::::
-'''
+print(f'\n03 - calculadora de impuestos\n')
+
+pago = int(input('proporcione el pago:'))
+impuesto = int(input('proporcione el impuesto:'))
+
+def calcularImpuesto(pago: int = 1, impuesto: int = 1) -> float:
+
+    pago_con_impuesto = pago + impuesto * (pago/100)
+
+    return pago_con_impuesto
+
+print('pago con impuesto: ',calcularImpuesto(pago,impuesto))
