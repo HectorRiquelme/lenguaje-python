@@ -1,6 +1,3 @@
-#clases y objetos
-#
-
 '''
 tema:  09 - clases y objetos
         A - fundamentos de encapsulamiento 
