@@ -1,5 +1,5 @@
 '''
-tema:  09 - clases y objetos
+tema:  10 - clases y objetos
         A - fundamentos de encapsulamiento 
         B - get y set en python 
         C - atributos de solo lectura

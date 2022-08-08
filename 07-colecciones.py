@@ -113,7 +113,6 @@ no pueden repetirse
         print(variable_set)             #resultados posibles=   {"dato3","dato3","dato3"} #orden aleatorio
                                                                 {"dato3","dato1","dato2"} #orden aleatorio
                                                                 {"dato1","dato3","dato3"} #orden aleatorio
-
 3-. eliminar elemento:
 
         variable_set.discard("dato3")   #resultados posibles=   {"dato1","dato2"} #orden aleatorio

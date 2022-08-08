@@ -1,5 +1,5 @@
 '''
-tema:  09 - clases abstractas
+tema:  13 - clases abstractas
         A - introduccion a clases abstractas
 
 ejercicio:

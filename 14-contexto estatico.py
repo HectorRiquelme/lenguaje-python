@@ -1,5 +1,5 @@
 '''
-tema:  09 - contexto estático
+tema:  14 - contexto estático
         A - introducción a los contextos
         B - variables de clase
         C - variables al vuelo

@@ -1,5 +1,5 @@
 '''
-tema:  09 - herencia multiple
+tema:  12 - herencia multiple
         A - introduccion a herencia multiple
         B - prioridad en la herencia multiple
 
@@ -113,19 +113,6 @@ class Color:
 
     def __str__(self):
         return f'Color [color:{self._color}]'
-
-
-# class Cuadrado(FiguraGeometrica,Color):
-
-#     def __init__(self,lado,color) -> None:
-#         FiguraGeometrica.__init__(self,lado,lado)
-#         Color.__init__(self,color)
-
-#     def __str__(self):
-#         return f'{FiguraGeometrica.__str__(self)}---{Color.__str__(self)}'
-
-#     def area(self):
-#         return self.alto * self.ancho
 
 
 class Rectangulo(FiguraGeometrica,Color):
