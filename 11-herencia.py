@@ -1,7 +1,7 @@
 '''
 tema:  11 - herencia
         A - introduccion a herencia 
-        B - sobreescritura
+        B - sobrecarga
 
 ejercicio:
 01 - uso de herencia
@@ -111,10 +111,10 @@ de la herencia
     print(instancia_clase_hija.nombre)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-        C - sobreescritura de métodos
+        C - sobrecarga de métodos
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-la sobre escritura de métodos se refiere a la accion de utilizar el mismo nombre
+la sobrecarga de métodos se refiere a la accion de utilizar el mismo nombre
 para crear varios métodos los cuales pueden ser diferenciados entre ellos
 según la signatura que contenga cada uno, es decir se diferencias por sus parametros
 de entrada
