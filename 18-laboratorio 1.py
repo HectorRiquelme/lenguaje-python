@@ -1,5 +1,5 @@
 '''
-tema:  16 - sobrecarga de operadores
+tema:  18 - laboratorio 1
 
 ejercicio:
 
