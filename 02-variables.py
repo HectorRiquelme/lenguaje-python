@@ -4,23 +4,26 @@ tema: 02 - variables
 
 ejercicio:
 01 - uso de variables
-'''
 
+'''
 '''
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::
 A - cómo funcionan las variables en python?
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Las variables en python son dinamicas, pot lo tanto no es necesatio tiparlas directamente
-por ejemplo:
+Las variables en python son dinámicas, por lo tanto no es necesario
+ tiparlas (indicar el tipo de variable) directamente, por ejemplo:
 
-es posible crear la una variable "variable_uno" y asignarle un valor numerico o de texto
-vatiable_uno = 1
-vatiable_uno = "uno"
+
+- es posible crear la una variable "variable_uno" y asignarle un
+  valor numérico o de texto
+
+              variable_uno = 1
+              variable_uno = "uno"
+
 
 '''
 #--------------------------------------------------------------
-
 '''
 :::::::::::::::::::::::::::::::::::
 01 - uso de variables

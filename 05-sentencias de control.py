@@ -9,7 +9,6 @@ ejercicio:
 02 - sistema de calificaciones
 
 '''
-
 '''
 ::::::::::::::::::::::::::::::
         A - if else

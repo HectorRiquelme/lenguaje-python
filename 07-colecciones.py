@@ -21,7 +21,7 @@ en python existen distantas formas
 de almacenar información, hasta el momento
 hemos visto como se almacenan en variables
 pero estas almacenan un solo dato,
-pero y si queremos almacenar muchos datos
+pero y si quisieramos almacenar muchos datos
 en una sola variable? ahí es donde aparecen
 las colecciones, de las cuales veremos sus
 similitudes y diferencias
@@ -49,7 +49,7 @@ añadir nuevos elementos:
 
         lista.insert(1,dato4) #resultado: [dato1,dato4,dato2,dato3]
 
-4-. eliminar ultimo elemento de una lista:
+4-. eliminar último elemento de una lista:
 
         lista.pop()           #resultado: [dato1,dato4,dato2]
 
@@ -99,7 +99,7 @@ volver a transformarla en una tupla
 los elementos tipo set son colecciones
 que no poseen un orden en especifico(no poseen indices), por lo tanto
 no es valido intentar acceder a un espacio en
-especifico para buscar algún dato,
+específico para buscar algún dato,
 es editable, sin embargo, los datos ingresados
 no pueden repetirse
 

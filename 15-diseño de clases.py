@@ -13,13 +13,12 @@ ejercicio:
                                                 - id_producto       int
                                                 - nombre            str
                                                 - precio            float
-                                        metodos: - str    
-'''
-#--------------------------------------------------------------
+                                        metodos: - str
 
 '''
+'''
 :::::::::::::::::::::::::::::::::::
-01 - diseño de clases
+    01 - diseño de clases
 :::::::::::::::::::::::::::::::::::
 '''
 print('01 - diseño de clases\n')

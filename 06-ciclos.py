@@ -6,11 +6,10 @@ tema:  06 - ciclos
         D - continue 
 
 ejercicio:  
-01 - numero del 0 al 5 con while 
-02 - numero del 0 al 5 con for
+01 - número del 0 al 5 con while 
+02 - número del 0 al 5 con for
 
 '''
-
 '''
 ::::::::::::::::::::::::::::::
         A - while
@@ -18,7 +17,7 @@ ejercicio:
 
 el ciclo while es un ciclo o bucle
 en el cual se entra y no se puede escapar 
-de el mientras la condicion se siga cumpliendo
+de él mientras la condición se siga cumpliendo
 
         a=1
         
@@ -31,7 +30,7 @@ de el mientras la condicion se siga cumpliendo
 
 el ciclo for es un ciclo o bucle
 en el cual se estará iterando por n
-numero de veces que se determine en
+número de veces que se determine en
 su condicion
 
         for i in range(10):
@@ -59,7 +58,7 @@ es decir,
 
 supongamos que estas haciendo uso de "for"
 el cual será recorrido 5 veces, pero usted desea
-que en tercer recorrido su codigo no ejecute la logica
+que en tercer recorrido su código no ejecute la lógica
 dentro del ciclo for y que salte al cuarto recorrido sin
 hacer nada de lo que está programado, eso quedaría
 de la siguiente forma:
@@ -77,7 +76,7 @@ de la siguiente forma:
 
 '''
 ::::::::::::::::::::::::::::::::::::::::::::::::
-    01 - numero del 0 al 5 con while
+    01 - número del 0 al 5 con while
 ::::::::::::::::::::::::::::::::::::::::::::::::
 '''
 print('\n01 - numero del 0 al 5 con while\n')
@@ -88,7 +87,7 @@ while contador < 5:
         contador+=1
 '''
 ::::::::::::::::::::::::::::::::::::::::::::::::
-    02 - numero del 0 al 5 con for
+    02 - número del 0 al 5 con for
 ::::::::::::::::::::::::::::::::::::::::::::::::
 '''
 print('\n02 - numero del 0 al 5 con for\n')

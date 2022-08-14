@@ -1,30 +1,32 @@
 '''
 tema: 04 - operadores
-       A - operadores aritmeticos
+       A - operadores aritméticos
        B - operadores de asignación
        C - operadores de comparación
        D - operadores lógicos
 
 ejercicio: 
-01 - calcular area de un rectangulo
+01 - calcular area de un rectángulo
 02 - par o impar
 03 - mayoria de edad
 04 - tienda de libros
 '''
 '''
 ::::::::::::::::::::::::::::::::::::::::::
-       A - operadores aritmeticos
+       A - operadores aritméticos
 ::::::::::::::::::::::::::::::::::::::::::
 
-Los operadores aritmeticos son utilizados para realizar
-calculos matematicos, los cuales son:
+Los operadores aritméticos son utilizados para realizar
+cálculos matemáticos, los cuales son:
 
-suma              : +
-resta             : -
-multiplicacion    : *
-division          : /
-division (enteros): //
-resto (mod)       : %
+
+              suma              : +
+              resta             : -
+              multiplicación    : *
+              división          : /
+              división (enteros): //
+              resto (mod)       : %
+
 
 ::::::::::::::::::::::::::::::::::::::::::
        B - operadores de asignación
@@ -33,34 +35,38 @@ resto (mod)       : %
 son utilizados para alterar el valor de una variable
 tomando como base su valor actual:
 
-sumar algo a una variable       : variable += 1
-resta algo a una variable       : variable -= 1
-multiplicar algo a una variable : variable *= 1
-divir algo a una variable       : variable /= 1
+
+       sumar algo a una variable       : variable += 1
+       resta algo a una variable       : variable -= 1
+       multiplicar algo a una variable : variable *= 1
+       divir algo a una variable       : variable /= 1
+
 
 ::::::::::::::::::::::::::::::::::::::::::
        C - operadores de comparación
 ::::::::::::::::::::::::::::::::::::::::::
 
-       igual         que :   ==
-       distinto      que :   !=
-       mayor         que :   >
-       mayor o igual que :   >=
-       menor         que :   <
-       menor o igual que :   <=
+
+              igual         que :   ==
+              distinto      que :   !=
+              mayor         que :   >
+              mayor o igual que :   >=
+              menor         que :   <
+              menor o igual que :   <=
+
 
 ::::::::::::::::::::::::::::::::::::::::::
        D - operadores lógicos
 ::::::::::::::::::::::::::::::::::::::::::
 
-              -and
-              -or
-              -not
+                     -and
+                     -or
+                     -not
 '''
 #--------------------------------------------------------
 '''
 ::::::::::::::::::::::::::::::::::::::::::
-   01 - calcular area de un rectangulo
+   01 - calcular area de un rectángulo
 ::::::::::::::::::::::::::::::::::::::::::
 '''
 

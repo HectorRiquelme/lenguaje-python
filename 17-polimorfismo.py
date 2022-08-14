@@ -3,7 +3,7 @@ tema:  17 - polimorfismo
         A - polimorfismo
 
 ejercicio:
-01  -   sobreescribir mètodo str hacer e implementar interacción entre 2 objetos
+01  -   sobreescribir método str, crear e implementar interacción entre 2 objetos
 
 '''
 '''
@@ -13,28 +13,27 @@ ejercicio:
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Uno de los principios fundamentales en el paradigma orientado a objetos es el
-polimorfismo, el cual nos indica que un mètodo puede tomar distintas formas dependiendo
-del punto en el cual este es invocado, por ejemplo, si un mètodo en una la clase padre
-tiene un comportamiento, el mismo nombre en una clase hija, con los mismos parametros
-puede tomar otro comportamiento, aquì es donde entran en juego los conceptos de sobrecarga
-y sobreescritura.
+polimorfismo, el cual nos indica que un método puede tomar distintas formas dependiendo
+del punto en el cual este es invocado, por ejemplo, si un método en una la clase padre
+tiene un comportamiento, en un método con el mismo nombre en una clase hija con los mismos 
+parametros puede tomar otro comportamiento, aquì es donde entran en juego los conceptos de 
+sobrecarga y sobreescritura.
 
-    - en la sobrecargar se crean mètodos con un mismo nombre pero con distinta signatura
+    - en la sobrecargar se crean métodos con un mismo nombre pero con distinta signatura
 
-    - en la sobreescritura se crean mètodos con un mismo nombre y signatura pero su comportamiento
+    - en la sobreescritura se crean métodos con un mismo nombre y signatura pero su comportamiento
       se redefine, pudiendo comportarse iguales o diferente entre ambas declaraciones, esto toma
       sentido cuando trabajamos con herencia
 
 
 '''
 #--------------------------------------------------------------
-
 '''
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-01  -   sobreescribir mètodo str hacer e implementar interacción entre 2 objetos
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+01  -   sobreescribir método str, crear e implementar interacción entre 2 objetos
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 '''
+
 print('01  -  polimorfismo\n')
 
 class Empleado:

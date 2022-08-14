@@ -4,13 +4,12 @@ tema:  10 - clases y objetos
         B - get y set en python 
         C - atributos de solo lectura
         D - uso de módulos
-        E - comprobación de modulo principal
+        E - comprobación de módulo principal
 
 ejercicio:
 01 - crear clase aritmetica con encapsulamiento
 
 '''
-
 '''
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
         A - fundamentos de encapsulamiento
@@ -20,20 +19,25 @@ cuando creamos un objeto, existe la posibilidad de que queramos
 que sus atributos o algunos de sus atributos y métodos solo sean
 accedidos desde la misma clase y no desde otro lugar, el controlar
 el nivel de acceso de los atributos y métodos de una clase se le conoce
-como encapsulamiento.
+como encapsulamiento
 
 para indicar que un atributo solo debería ser accedido dentro de la misma clase
 se le define un indicador de que estamos ante un atributo "privado"
+
+
+        # _nombre tiene guión bajo al principio de su declaracion,
+        #  que se traduce en una variable privada
 
         class Persona:
                 def __init__(self)
                         self._nombre = "soy una variable privada"
 
+
 de esta forma estamos indicando que esta variable debería ser tratada como
 privada y no debería ser accedida ni modificada desde cualquier lugar,
 sin embargo, esto es solo un indicador, ya que si intentamos leer o escribir
 esta variable desde otro lugar, pythón lo realizará de todas formas, pero sería
-una mala practica
+una mala práctica
 
         persona = Persona()
 
@@ -58,15 +62,17 @@ Entonces, Cuál sería la forma correcta de acceder y/o cambiar el valor
 de los atributos privados de una clase?
 
 Para realizar esta acción existen los conceptos de "getter y setter"
-Estos no son más que unos métodos con la facultadas
+Estos no son más que unos métodos con la facultad
 de consultar o modificar dichos atributos.
 
-#getter
+
+- getter
+
         @property
         def nombre(self):
                 return self._nombre
 
-#setter
+- setter
 
         @nombre.setter
         def nombre(self,nombre_nuevo):
@@ -81,16 +87,19 @@ si queremos que un atributo privado pueda ser consultado desde otro lugar
 que no sea la misma clase pero no queremos que este pueda ser modificado,
 es necesario crear la funcion getter pero sin su función getter
 
-#getter
+
+- getter
+
         @property
         def nombre(self):
                 return self._nombre
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
         D - uso de módulos
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-los módulos son archivos creados con código de python, estos
+los módulos son archivos creados con código de python (.py), estos
 archivos pueden contener funciones , clases y/o variables que
 pueden ser importados en otro módulo para su uso
 
@@ -104,6 +113,7 @@ tendríamos que importar dicha clase en nuestro módulo actual
 -luego indica que es lo que va a importar desde dicho archivo "import Persona"
 -finalmente y de forma alternativa se le puede dar un alias a lo importado "as Personilla"
 
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
         E - comprobación de módulo principal
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -113,12 +123,12 @@ compilando nuestro código. Para verificar esto existe un metodo llamado "__name
 que nos indica si un módulo es o no el principal, si este se encuentra con el valor
 "__main__" es porque efectivamente si es el módulo principal
 
+
         if __name__ == "__main__":
+                # realizar alguna acción
 
 '''
-
 #----------------------------------------------
-
 '''
 ::::::::::::::::::::::::::::::::::::::::::::::::
 01 - crear clase aritmetica con encapsulamiento

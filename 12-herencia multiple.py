@@ -1,7 +1,7 @@
 '''
-tema:  12 - herencia multiple
-        A - introduccion a herencia multiple
-        B - prioridad en la herencia multiple
+tema:  12 - herencia múltiple
+        A - introducción a herencia múltiple
+        B - prioridad en la herencia múltiple
 
 ejercicio:
 01 - figura geometrica
@@ -10,19 +10,19 @@ ejercicio:
 
 '''
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-        A - introduccion a herencia multiple
+        A - introducción a herencia múltiple
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 hasta ahora hemos visto como llevar a cabo la herencia desde una
 clase padre hacia una clase hija, pero podrían darse escenarios
-en los que se requiera que una clase hija hereda de las caracteristicas
-de más de una clase, a esto lo llamamos herencia multiple
+en los que se requiera que una clase hija hereda de las características
+de más de una clase, a esto lo llamamos herencia múltiple
 
 
         class ClaseHija( PadreUno, PadreDos):
 
 
-pero , según vimos anteriormente, cuando tenemos una clase padre
+pero, según vimos anteriormente, cuando tenemos una clase padre,
 especificamos que usaremos el constructor de la clase padre mediante
 el uso de la función super(), pero en este caso, si usamos la función super()
 estaremos utilizando el constructor de la clase PadreUno o PadreDos?
@@ -42,17 +42,17 @@ especificar la clase a la cual estamos invocando su constructor
 
                 class ClaseHija( PadreUno, PadreDos):
 
-                    def __init__(selft,atributo_uno):
-                        PadreUno.__init__(atributo_uno)  
-                        PadreDos.__init__(atributo_dos)  
+                    def __init__(self ,atributo_uno):
+                        PadreUno.__init__(self, atributo_uno)  
+                        PadreDos.__init__(self, atributo_dos)  
 
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-        B - prioridad en la herencia multiple
+        B - prioridad en la herencia múltiple
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-al trabajar con herencia multiple, es posible que se tengas métodos
+al trabajar con herencia múltiple, es posible que se tengas métodos
 con el mismo nombre en ambas clases padres, para estos casos será necesario
 saber a cual clase va a tomar como prioridad antes de buscar el método en otra clase,
 existe una función llamada MRO que sirve para indicar la prioridad de ejecución de

@@ -1,86 +1,97 @@
 '''
-tema:  08 - funciones
-        A - funcion 
-        B - parametros 
+tema:  08 - funciónes
+        A - función 
+        B - parámetros 
         C - retornos 
         D - argumentos variables 
 
 ejercicio:
-01 - funcion con *args para sumar 
-02 - funcion con *args para multiplicar
+01 - función con *args para sumar 
+02 - función con *args para multiplicar
 03 - calculadora de impuestos
 
 '''
 
 '''
 ::::::::::::::::::::::::::::::
-        A - funcion
+        A - función
 ::::::::::::::::::::::::::::::
 
-las funciones son utilizadas para atomizar 
-funcionalidades, danto la posibilidad
-de ordenar y reutilizar codigo
+las funciones son utilizadas para atomizar acciones que se realizan
+separadas del resto, dando la posibilidad de ordenar y reutilizar codigo
 
-    def funcion():
-        print('soy una funcion')
+    def función():
+        print('soy una función')
 
 ::::::::::::::::::::::::::::::
-        B - parametros
+        B - parámetros
 ::::::::::::::::::::::::::::::
 
-una función puede establecer parametros
+una función puede establecer parámetros
 que son datos de entrada para ser utilizados dentro
-de la funcion
+de la función
 
-    def funcion( parametro1 , parametro2 ):
-        print(parametro1+parametro2)
 
-se puede definir el tipo de dato que se espera un parametro,
-sin embargo, esto es solo de modo ilustrativo y de orientacion,
+    def función( parámetro1 , parámetro2 ):
+        print(parámetro1+parámetro2)
+
+
+se puede definir el tipo de dato que se espera en un parámetro,
+sin embargo, esto es solo de modo ilustrativo y de orientación,
 al no ser un lenguaje fuertemente tipado, la función podría recibir
-de todas maneras otro tipo de dato en sus parametros
+de todas maneras otro tipo de dato en sus parámetros
 
-    def funcion(parametro: int)
-        print(parametro)
-        
-las funciones tambien puede tener un parametro con un valor 
-argumento por default, de forma tal que si la funcion no recibe un argumento
-al momento de ser utilizada, entonces el parametro toba dicho valor
 
-    def funcion(parametro: int = 100)
-        return parametro
+    def función(parámetro: int)
+        print(parámetro)
+
+
+las funciónes tambien puede tener un parámetro con un valor (argumento) 
+por default, de forma tal que si la función no recibe un valor
+al momento de ser utilizada, entonces el parámetro toma dicho valor 
+establecido previamente
+
+
+    def función(parámetro: int = 100)
+        return parámetro
+
 
 ::::::::::::::::::::::::::::::
         C - retornos
 ::::::::::::::::::::::::::::::
 
-el retorno en una funcion es el valor que esperamos
-como resultado luego de que dicha funcion haya sido ejecutada
+el retorno en una función es el valor que esperamos
+como resultado luego de que dicha función haya sido ejecutada
 
-    def funcion_suma(parametro1, parametro2):
-        return parametro1 + parametro2
+
+    def función_suma(parámetro1, parámetro2):
+        return parámetro1 + parámetro2
+
 
 tambien es posible indicar de forma ilustrativa lo que esperamos
-que la funcion deba retornar
+que la función deba retornar
 
-    def funcion(parametro: int) -> int
-        return parametro * parametro
 
-::::::::::::::::::::::::::::::
+    def funcion(parámetro: int) -> int   #se espera que el retorno sea un valor entero
+        return parámetro * parámetro
+
+
+:::::::::::::::::::::::::::::::::::::::
         D - argumentos variables
-::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::
 
 hablamos de argumentos variables cuando una función es capaz de recibir
-más de un valor de un argumento, donde estos no han especificados.
-Las formas utilizadas para ingresar argumentos variables a una funciones
-es;
- mediante un parametro tipo tupla, ateponiendo un asterico al parametro:
+más de un valor en sus argumentos y estos no han sido especificados.
+Las formas utilizadas para ingresar argumentos variables a una funciónes es
+
+
+  - mediante un parámetro tipo tupla, anteponiendo un asterico al parámetro:
  
-        def funcion(*args)
+            def funcion(*args)
 
- o un parametro tipo diccionario, anteponiendo dos asteriscos al parametro:
+  - o un parámetro tipo diccionario, anteponiendo dos asteriscos al parámetro:
 
-        def funcion(**wargs)
+            def funcion(**wargs)
 
     
 '''
@@ -89,11 +100,11 @@ es;
 
 '''
 ::::::::::::::::::::::::::::::::::::::::::::::::
-    01 - funcion con *args para sumar
+    01 - función con *args para sumar
 ::::::::::::::::::::::::::::::::::::::::::::::::
 '''
 
-print(f'\n01 - funcion con *args para sumar\n')
+print(f'\n01 - función con *args para sumar\n')
 
 def sumar(*args) -> int:
     
@@ -107,11 +118,11 @@ print('resultado de suma:',sumar(4,5))
 
 '''
 ::::::::::::::::::::::::::::::::::::::::::::::::
-    02 - funcion con *args para multiplicar
+    02 - función con *args para multiplicar
 ::::::::::::::::::::::::::::::::::::::::::::::::
 '''
 
-print(f'\n02 - funcion con *args para multiplicar\n')
+print(f'\n02 - función con *args para multiplicar\n')
 
 def multiplicar(*args) -> int:
     

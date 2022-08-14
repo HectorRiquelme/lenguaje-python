@@ -12,15 +12,20 @@ ejercicio:
        A - tipos de datos existentes
 ::::::::::::::::::::::::::::::::::::::::::
 
-los tipos de datos que exiten en python son los siguientes
+los tipos de datos que existen en python son los siguientes
 
-int    : entero
-complex: complejo
-float  : flotante
-str    : string
-bool   : boleano
+              int    : entero         ej: 4
+              complex: complejo       ej: 4,5j
+              float  : flotante       ej: 3.14
+              str    : string         ej: "soy un texto"
+              bool   : boleano        ej: True
+              list   : list           ej: [dato1,"dato2"]
+              tuple  : tupla          ej: (dato1,"dato2")
+              set    : set            ej: {datoUnico1,datoUnico2}
+              dict   : diccionario    ej: {"llave":"valor"}
 
-csi categorizamos, los tipos de datos existentes serían:
+
+si categorizamos, los tipos de datos existentes serían:
 
 Numeric :         - Integer            : int
                   - Complex            : compĺex
@@ -35,6 +40,7 @@ Numeric :         - Integer            : int
 Sequence type :   - String             : str
                   - List               : list
                   - Tuple              : tuple
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
  B - identificar el tipo de dato de una variable

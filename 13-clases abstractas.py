@@ -1,6 +1,6 @@
 '''
 tema:  13 - clases abstractas
-        A - introduccion a clases abstractas
+        A - introducción a clases abstractas
 
 ejercicio:
 01 - crear clase abstracta
@@ -9,7 +9,7 @@ ejercicio:
 
 '''
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-        A - introduccion a clases abstractas
+        A - introducción a clases abstractas
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 las clases abstractas son clases en las que sus métodos son declarados
@@ -19,19 +19,19 @@ de esos métodos, cabe mencionar que no se pueden crear instancias directamente
 de una clase abstracta, pero, para qué sirve esto entonces?
 
 
-    class ClaseAbstracta(ABC):
+    class ClaseAbstracta(ABC):              # las clases abstractas extienden de la clase ABC
 
         def __init__(self, dato):
             self.variable = dato
 
-        @abstractmethod                     # se define una clase abstracta
+        @abstractmethod                     # se define una clase abstracta usando decorador @abstractmethod
         def metodo_abstracto(self):         # por definición no puede estar implmentada
-            pass
+            pass                            
 
 
 una clase abstracta se crea pensando en que sus atributos y métodos serán heredados
 eventualemente por una clase hija, la cual tendrá que implementar la lógica de los
-métodos de la clase padre
+métodos de la clase padre de forma obligatoria
 
 
     class ClaseHija(ClaseAbstracta):

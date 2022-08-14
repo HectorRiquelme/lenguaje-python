@@ -3,7 +3,7 @@ tema:  18 - laboratorio 1
 
 ejercicio:
 
-01  -   crear el siguiente sistema:
+01  -   crear el siguiente sistema basado en el uml de la imagen "18-laboratorio 1.png":
 
 -   Computadora:
         + contadorComputadoras: int <static>

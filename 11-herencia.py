@@ -1,6 +1,6 @@
 '''
 tema:  11 - herencia
-        A - introduccion a herencia 
+        A - introducción a herencia 
         B - sobrecarga
 
 ejercicio:
@@ -10,24 +10,25 @@ ejercicio:
 
 '''
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-        A - introduccion a herencia 
+        A - introducción a herencia 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-como hemos mencionado atenriormente, la programación orientada
-a objetos responde a una logica en la que se define un concepto abstracto
-para crear objetos de desde esa base se van a contruir objetos más especificos,
-heredando las caracteristicas de su clase padre, la forma de heredad las carecticas
-de una clase en otra es la siguiente:
+como hemos mencionado anteriormente, la programación orientada
+a objetos responde a una lógica en la que se define como un concepto abstracto
+para crear objetos a partir de esa base y así contruir objetos más específicos,
+heredando las características de su clase padre, la forma de heredar las características
+de una clase en otra es la siguiente
 
-    class ClaseHija(ClasePadre):
+
+        class ClaseHija(ClasePadre):
 
 Hemos definido una clase llamada "ClaseHija" que está heredando las carasteristicas de
 una clase llamada "ClasePadre"
 
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
         B - uso de constructor de la clase padre
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 
     #clase padre
     class Padre:
@@ -61,8 +62,8 @@ será heredado por la clase Hija
     - atributos de clase Hija  -> edad , nombre
 
 
-con eso en consideración sería facil deducir que es necesario entregarle un nombre junto
-con una edad al momento de realizar un objeto de la clase Hija
+con eso en consideración sería fácil deducir que es necesario entregarle un nombre junto
+con una edad al momento de crear un objeto de la clase Hija
 
 
         #clase hija
@@ -86,7 +87,7 @@ datos para no tener que volver a crear dichos atributos en la clase hija, es dec
                                     #   pero en este caso lo estamos volviendo a crear
 
 
-entonces, como podríamos pasarle información a la clase Hija y al mismo tiempo
+entonces, cómo podríamos pasarle información a la clase Hija y al mismo tiempo
 asignar esa información a los atributos heredados del padre?
 
 La respuesta está en una función llamada "super" que nos permite hacer uso
@@ -114,26 +115,27 @@ de la herencia
         C - sobrecarga de métodos
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-la sobrecarga de métodos se refiere a la accion de utilizar el mismo nombre
+la sobrecarga de métodos se refiere a la acción de utilizar el mismo nombre
 para crear varios métodos los cuales pueden ser diferenciados entre ellos
-según la signatura que contenga cada uno, es decir se diferencias por sus parametros
+según la signatura que contenga cada uno, es decir, se diferencian por sus parámetros
 de entrada
 
-def nueva_funcion():
-    print('función sin parametros')
 
-def nueva_funcion(entrada_uno):
-    print('función con un parametro')
+            def nueva_funcion():
+                print('función sin parametros')
 
-def nueva_funcion(entrada_uno ,entrada_dos ):
-    print('función con dos parametros')
+            def nueva_funcion(entrada_uno):
+                print('función con un parametro')
 
-en este caso hemos sobrecargado la función "nueva_funcion" dos veces
+            def nueva_funcion(entrada_uno ,entrada_dos ):
+                print('función con dos parametros')
+
+
+-en este caso hemos sobrecargado la función "nueva_funcion" dos veces
+
 
 '''
-
 #----------------------------------------------
-
 '''
 ::::::::::::::::::::::::::::::::::::::::::::::::
             01 - uso de herencia
@@ -188,7 +190,7 @@ class Doctor(Persona):
 
 if __name__ == "__main__":
 
-    doctor = Doctor("hector" ,12, "cardiologo")
+    doctor = Doctor("archundia" ,12, "cardiologo")
     
     doctor.indicarEspecialidad()
 

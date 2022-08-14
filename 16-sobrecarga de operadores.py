@@ -3,28 +3,27 @@ tema:  16 - sobrecarga de operadores
         A - sobrecarga de operadores
 
 ejercicio:
-01  -   sobrecargar operadores aritmeticos y hacer interacción entre 2 objetos
+01  -   sobrecargar operadores aritméticos y hacer interacción entre 2 objetos
 
 '''
 '''
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
                 A - sobrecarga de operadores
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 en el mundo del paradigma orientado a objetos es posible sobrecargar
-métodos, es decir, damos creamos un método nuevo llamado de igual que un método
-ya existente, la forma de diferenciarlos es identificando su signatura (parametros),
+métodos, es decir, creamos un método nuevo llamado de igual que un método
+ya existente. La forma de diferenciarlos es identificando su signatura (parametros),
 todo esto lo habíamos mencionado en el capítulo 11.
 
 Ahora bien, pensemos en qué es un método, se define como las acciones que puede realizar
-un objeto, acción... , entonces cuando sumamos o restamos, estamos realizando una acción?,
-la respuesta es si, con eso en mente, no suena ilógico el creer que es posible sobreescribir
+un objeto, acción...?! , entonces cuando sumamos o restamos, estamos realizando una acción?,
+la respuesta es sí, con eso en mente, no suena ilógico el creer que es posible sobreescribir
 operadores como "+" o "-" , esto es completamente posible en python, solo necesitamos
 identificar el nombre de estos métodos que deseamos sobreescribir.
 
 
-                        operadores aritmeticos
+                        operadores aritméticos
 
                 +   --->    __add__(self,other)
                 -   --->    __sub__(self,other)
@@ -58,7 +57,7 @@ identificar el nombre de estos métodos que deseamos sobreescribir.
 
 '''
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-01  -   sobrecargar operadores aritmeticos y hacer interacción entre 2 objetos
+01  -   sobrecargar operadores aritméticos y hacer interacción entre 2 objetos
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 '''
