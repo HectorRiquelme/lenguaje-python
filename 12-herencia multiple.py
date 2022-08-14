@@ -4,10 +4,9 @@ tema:  12 - herencia múltiple
         B - prioridad en la herencia múltiple
 
 ejercicio:
-01 - figura geometrica
+01 - figura geométrica
 
 '''
-
 '''
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
         A - introducción a herencia múltiple
@@ -36,7 +35,7 @@ estaremos utilizando el constructor de la clase PadreUno o PadreDos?
 
 
 en este caso no podemos saber si estamos llamando al método constructor
-del PAdreUno o PadreDos, entonces para solucionar este problema es necesario
+del PAdreUno o PadreDos, entonces, para solucionar este problema es necesario
 especificar la clase a la cual estamos invocando su constructor
 
 
@@ -52,10 +51,10 @@ especificar la clase a la cual estamos invocando su constructor
         B - prioridad en la herencia múltiple
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-al trabajar con herencia múltiple, es posible que se tengas métodos
+al trabajar con herencia múltiple, es posible que se tengan métodos
 con el mismo nombre en ambas clases padres, para estos casos será necesario
 saber a cual clase va a tomar como prioridad antes de buscar el método en otra clase,
-existe una función llamada MRO que sirve para indicar la prioridad de ejecución de
+existe una función llamada "MRO" que sirve para indicar la prioridad de ejecución de
 métodos de una clase
 
 
@@ -68,7 +67,7 @@ métodos de una clase
 
 '''
 ::::::::::::::::::::::::::::::::::::::::::::::::
-        01 - figura geometrica
+        01 - figura geométrica
 ::::::::::::::::::::::::::::::::::::::::::::::::
 '''
 

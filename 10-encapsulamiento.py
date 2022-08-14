@@ -25,7 +25,7 @@ para indicar que un atributo solo debería ser accedido dentro de la misma clase
 se le define un indicador de que estamos ante un atributo "privado"
 
 
-        # _nombre tiene guión bajo al principio de su declaracion,
+        # "_nombre" tiene guión bajo al principio de su declaración,
         #  que se traduce en una variable privada
 
         class Persona:
@@ -36,23 +36,27 @@ se le define un indicador de que estamos ante un atributo "privado"
 de esta forma estamos indicando que esta variable debería ser tratada como
 privada y no debería ser accedida ni modificada desde cualquier lugar,
 sin embargo, esto es solo un indicador, ya que si intentamos leer o escribir
-esta variable desde otro lugar, pythón lo realizará de todas formas, pero sería
+esta variable desde otro lugar, python lo realizará de todas formas, pero sería
 una mala práctica
 
-        persona = Persona()
 
-        #mala práctica
-        persona._nombre = "estoy cambiando el valor de _nombre"
+                persona = Persona()
+
+                #mala práctica
+                persona._nombre = "estoy cambiando el valor de _nombre"
+
 
 existe otro indicador de atributos privados que sí es restrictivo pero es menos usado,
 sería anteponiendo doble guíon bajo a una variable
+
 
         class Persona:
                 def __init__(self)
                         self.__nombre = "soy una variable privada"
 
+
 es poco usual ver el uso del "doble guíon bajo" pero a diferencia del guíon bajo simple,
-este si restringe el acceso a la variable desde fuera de la clase misma
+este sí restringe el acceso a la variable desde fuera de la clase misma
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
         B - get y set en python
@@ -63,20 +67,20 @@ de los atributos privados de una clase?
 
 Para realizar esta acción existen los conceptos de "getter y setter"
 Estos no son más que unos métodos con la facultad
-de consultar o modificar dichos atributos.
+de consultar y modificar dichos atributos.
 
 
-- getter
+        - getter
 
-        @property
-        def nombre(self):
-                return self._nombre
+                @property
+                def nombre(self):
+                        return self._nombre
 
-- setter
+        - setter
 
-        @nombre.setter
-        def nombre(self,nombre_nuevo):
-                self._nombre = nombre_nuevo
+                @nombre.setter
+                def nombre(self,nombre_nuevo):
+                        self._nombre = nombre_nuevo
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -85,14 +89,14 @@ de consultar o modificar dichos atributos.
 
 si queremos que un atributo privado pueda ser consultado desde otro lugar
 que no sea la misma clase pero no queremos que este pueda ser modificado,
-es necesario crear la funcion getter pero sin su función getter
+es necesario crear la función getter pero sin su función getter
 
 
-- getter
+        - getter
 
-        @property
-        def nombre(self):
-                return self._nombre
+                @property
+                def nombre(self):
+                        return self._nombre
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -100,7 +104,7 @@ es necesario crear la funcion getter pero sin su función getter
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 los módulos son archivos creados con código de python (.py), estos
-archivos pueden contener funciones , clases y/o variables que
+archivos pueden contener funciones, clases y/o variables que
 pueden ser importados en otro módulo para su uso
 
 por ejemplo, si tuvieramos la clase Persona en otro módulo,
@@ -109,9 +113,10 @@ tendríamos que importar dicha clase en nuestro módulo actual
 
         from Persona import Persona as Personilla
 
--primero indica desde que archivo "from Persona"
--luego indica que es lo que va a importar desde dicho archivo "import Persona"
--finalmente y de forma alternativa se le puede dar un alias a lo importado "as Personilla"
+
+- primero indica desde que archivo "from Persona"
+- luego indica que es lo que va a importar desde dicho archivo "import Persona"
+- finalmente y de forma alternativa se le puede dar un alias a lo importado "as Personilla"
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -135,7 +140,7 @@ que nos indica si un módulo es o no el principal, si este se encuentra con el v
 ::::::::::::::::::::::::::::::::::::::::::::::::
 '''
 
-print('01 - crear clase aritmetica con encapsulamiento')
+print('01 - crear clase aritmética con encapsulamiento')
 
 class Aritmetica:
 

@@ -15,8 +15,9 @@ ejercicio:
 ::::::::::::::::::::::::::::::
 
 los operadores de control permiten condicionar
-la logica de nuestro codigo para que ejecuten
+la lógica de nuestro código para que ejecuten
 diferentes acciones dependendiendo de las condiciones
+
 
         if valor==1:
             <realizar acción a>
@@ -29,7 +30,7 @@ diferentes acciones dependendiendo de las condiciones
 ::::::::::::::::::::::::::::::
 
 el operador ternario es una forma simplificada "if else"
-se recomiendo usar en los casos que las condiciones se
+se recomienda usar en los casos que las condiciones se
 mantengan simples
 
 <realizar acción a>     if valor==1 else ##      <realizar acción b>
@@ -39,11 +40,13 @@ mantengan simples
         C - conversión
 ::::::::::::::::::::::::::::::
 
-si bien no es necesario especificar el tipado delas variables en python,
+si bien no es necesario especificar el tipado de las variables en python,
 existen casos en los que necesitamos estar seguros que trabajamos con
-un tipo de datos en especifico, eso se puede hacer de la siguiente manera:
+un tipo de datos en específico, eso se puede hacer de la siguiente manera:
 
-variable= int(<valo_asignado_a_la_variable>)
+
+        variable= int(<valo_asignado_a_la_variable>)
+
 
 '''
 #----------------------------------------------

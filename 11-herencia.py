@@ -7,7 +7,6 @@ ejercicio:
 01 - uso de herencia
 
 '''
-
 '''
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
         A - introducción a herencia 
@@ -20,9 +19,10 @@ heredando las características de su clase padre, la forma de heredar las caract
 de una clase en otra es la siguiente
 
 
-        class ClaseHija(ClasePadre):
+            class ClaseHija( ClasePadre ):
 
-Hemos definido una clase llamada "ClaseHija" que está heredando las carasteristicas de
+
+Hemos definido una clase llamada "ClaseHija" que está heredando las características de
 una clase llamada "ClasePadre"
 
 
@@ -30,16 +30,17 @@ una clase llamada "ClasePadre"
         B - uso de constructor de la clase padre
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-    #clase padre
-    class Padre:
-        def __init__(self, nombre):
-            self.nombre=nombre
 
-    
-    #clase hija
-    Class Hija(Padre):
-        def __init__(self, edad , nombre):
-            self.edad=edad
+        #clase padre
+        class Padre:
+            def __init__(self, nombre):
+                self.nombre=nombre
+
+        
+        #clase hija
+        Class Hija(Padre):
+            def __init__(self, edad , nombre):
+                self.edad=edad
 
 
 en este punto hemos creado una clase Padre y una clase Hija que se "extiende"
@@ -66,16 +67,17 @@ con eso en consideración sería fácil deducir que es necesario entregarle un n
 con una edad al momento de crear un objeto de la clase Hija
 
 
-        #clase hija
-        Class Hija(Padre):
-            def __init__(self, edad , nombre):
-                self.edad=edad
+            #clase hija
+            Class Hija(Padre):
+                def __init__(self, edad , nombre):
+                    self.edad=edad
 
-    instancia_clase_hija = Hija(edad , nombre)
+        instancia_clase_hija = Hija(edad , nombre)
 
 
-pero, la idea de heredar atributos y metodos de una clase padre es poder utilizar estos
+pero, la idea de heredar atributos y métodos de una clase padre es poder utilizar estos
 datos para no tener que volver a crear dichos atributos en la clase hija, es decir
+
 
         #clase hija
 
@@ -97,6 +99,7 @@ Eso quedaría de la siguiente manera
 
 
         #clase hija
+
         Class Hija(Padre):
             def __init__(self, edad , nombre):
                 super().__init__(nombre)        # con super() llamamos al constructor de
@@ -109,7 +112,9 @@ Eso quedaría de la siguiente manera
 de esta manera ya estariamos haciendo uso de los atributos por medio
 de la herencia
 
+
     print(instancia_clase_hija.nombre)
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
         C - sobrecarga de métodos

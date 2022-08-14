@@ -16,19 +16,21 @@ ejercicio:
 
 Existen ocasiones en que al codificar nos encontremos con errores
 que no podamos "controlar", que exista la posibilidad de que un error
-se de aunque le agreguemos todas las validaciones que creamos necesarias,
+se nos presente aunque le agreguemos todas las validaciones que creamos necesarias,
 entonces, como evitar que nuestra aplicación sufra una caída?
 
 Para estos casos nos sería útil usar la herramienta de control de errores
-"try except" en la cual nosotros ingresamos nuestro código de forma regular
+"try except" en la cual ingresamos nuestro código de forma regular
 dentro del espacio de nuestro "try"
 
 
                 try:
                         #codigo que queremos que sea controlado
 
+
 luego de que hemos ingresado nuestro código establecemos el control de error
 al usar "except"
+
 
                 try:
                         #codigo que queremos que sea controlado
@@ -37,13 +39,14 @@ al usar "except"
 
                         # acción que queremos que se realice en caso de caer en un error
 
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
                 B - tipos de excepciones
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 en python es posible que los errores sean identificados por un tipo
-de error en especifico, es decir, si en un caso en particular
-quisieramos validar especificamente un error aritmetico entonces podrías
+de error en específico, es decir, si en un caso en particular
+quisieramos validar especificamente un error aritmético entonces podríamos
 usar la excepción ArithmeticError
 
 
@@ -62,9 +65,10 @@ ZeroDivisionError          |                                 |          Indentat
           FileNotFoundError   PermissionError
 
 
-pero, para qué nos puede servir usar una Exception especifica si la global las cubre a todas?
+pero, para qué nos puede servir usar una Exception específica si la global las cubre a todas?
 pues, un try puede llevar muchos except de la mano, nos puede servir para realizar una acción
 diferente para cada tipo de exception que encontremos
+
 
                 a = '10'
                 b = 0
@@ -91,7 +95,7 @@ diferente para cada tipo de exception que encontremos
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 también es posible usar un bloque llamado "else" , el cuál es uso
-para realizar acción solo si no ocurrió ninguna excepción,
+para realizar acción solo si no ha ocurrido ninguna excepción,
 es decir, si ocurre una excepción, no accedemos a este bloque
 
 Si lo que deseamos es establecer un bloque en el que se ejecuten acción

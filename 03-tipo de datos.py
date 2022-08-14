@@ -12,7 +12,7 @@ ejercicio:
        A - tipos de datos existentes
 ::::::::::::::::::::::::::::::::::::::::::
 
-los tipos de datos que existen en python son los siguientes
+los tipos de datos que existen en python son los siguientes:
 
               int    : entero         ej: 4
               complex: complejo       ej: 4,5j
@@ -47,6 +47,7 @@ Sequence type :   - String             : str
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
  se puede determinar el tipado de la variable con la función 'type(<variable>)'
+ 
 
 '''
 #--------------------------------------------------------------------------------

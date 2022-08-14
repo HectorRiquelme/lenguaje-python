@@ -18,7 +18,7 @@ ejercicio:
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 hasta ahora cuando trabajamos con clases, hemos interactuado con
-la instancia de una clase, es decir creamos un objeto y luego hemos 
+la instancia de una clase, es decir, creamos un objeto y luego hemos 
 accedido a sus métodos y atributos, pero tambén se puede interactuar con
 cierto tipo de atributos y métodos sin la necesidad de crear un objeto,
 interactuando directamente con la clase
@@ -43,11 +43,12 @@ la información del contexto estático ya puede ser accedida
 por otro lado tenemos el contexto dinámico o de instancia, en el cual su información
 solo es accedida cuando se crea un objeto a partir de una clase
 
+
                         objeto_instanciado = MiClase()
                         print(objeto_instanciado.atributo_de_instancia)        #atributos y métodos accedidos
                                                                                #luego de crear un objeto
 
-                                                                               
+                                                                           
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
                 B - variables de clase
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -67,9 +68,9 @@ es decir, si son declaradas e inicializadas fuera del constructor entonces son v
 lo más importante a destacar, es que las variables en este caso pertenecen a la clase y no a
 la instancia, por lo tanto, su valor es transversal a todas las instancias que han sido creadas
 y que se crearán en un futuro, por ejemplo, si se define que "variable_de_clase = 1", todas las instancias
-verán que ese valor es  "1", ahora bien, si alguna de las instancias módifica ese valor a 
+verán que ese valor es  "1", ahora bien, si alguna de las instancias modifica ese valor a 
 "variable_de_clase= 2", este cambios se verá reflejado en la clase, por lo tanto, si alguna otra 
-instancia consulta el valor de está variable, verá que su valor es "2"
+instancia consulta el valor de esta variable, verá que su valor es "2"
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -102,12 +103,12 @@ dicho método. Para crear métodos estáticos hacemos uso del decorador @staticm
 
 
 Los métodos estáticos no pueden acceder a ver a los métodos o variables de instancia,
-y para acceder a las variables de clase, es necesario que esté sea acceido de forma indirecta
+y para acceder a las variables de clase, es necesario que este sea accedido de forma indirecta
 mediante el nombre de la clase, ejemplo
 
 
                 @staticmethod
-                def metodo_estático():
+                def metodo_estatico():
                         print(MiClase.variable_de_clase)
 
 
@@ -116,10 +117,10 @@ mediante el nombre de la clase, ejemplo
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 los métodos de clase comparten varias similitudes con los métodos de estáticos, podríamos decir
-que son una variable de métodos estáticos, pueden ser accedidos directamente desde la clase, 
+que son una variante de los métodos estáticos, pueden ser accedidos directamente desde la clase, 
 no tienen acceso a las variables de instancia y deben ser creadas mediante un decorador @classmethod,
 sin embargo, hay una diferencia importante, este tipo de métodos puede acceder a las variables de clase
-de forma directa mediante un parametro "cls"(el nombre puede variar).
+de forma directa mediante un parámetro "cls"(el nombre puede variar).
 
 
                 @classmethod

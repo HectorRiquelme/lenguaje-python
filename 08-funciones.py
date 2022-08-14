@@ -1,5 +1,5 @@
 '''
-tema:  08 - funciónes
+tema:  08 - funciones
         A - función 
         B - parámetros 
         C - retornos 
@@ -18,10 +18,12 @@ ejercicio:
 ::::::::::::::::::::::::::::::
 
 las funciones son utilizadas para atomizar acciones que se realizan
-separadas del resto, dando la posibilidad de ordenar y reutilizar codigo
+separadas del resto, dando la posibilidad de ordenar y reutilizar código
 
-    def función():
-        print('soy una función')
+
+        def función():
+            print('soy una función')
+
 
 ::::::::::::::::::::::::::::::
         B - parámetros
@@ -46,7 +48,7 @@ de todas maneras otro tipo de dato en sus parámetros
         print(parámetro)
 
 
-las funciónes tambien puede tener un parámetro con un valor (argumento) 
+las funciónes también pueden tener un parámetro con un valor (argumento) 
 por default, de forma tal que si la función no recibe un valor
 al momento de ser utilizada, entonces el parámetro toma dicho valor 
 establecido previamente
@@ -68,11 +70,11 @@ como resultado luego de que dicha función haya sido ejecutada
         return parámetro1 + parámetro2
 
 
-tambien es posible indicar de forma ilustrativa lo que esperamos
+también es posible indicar de forma ilustrativa lo que esperamos
 que la función deba retornar
 
 
-    def funcion(parámetro: int) -> int   #se espera que el retorno sea un valor entero
+    def funcion(parámetro: int) -> int:   #se espera que el retorno sea un valor entero
         return parámetro * parámetro
 
 

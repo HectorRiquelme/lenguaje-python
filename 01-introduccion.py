@@ -25,12 +25,12 @@ de valor que se desee.
             variable = 0
 
 
-A diferencia de otros lenguajesde programación,
+A diferencia de otros lenguajes de programación,
 en python no se da cierre a cada sentencia programada
 con un ";" ni tampoco se maneja la apertura y cierre de 
 sentencias con "{}" (como es el caso de java).
 La forma en la que python maneja los cierres y aperturas de
-sentencias es mediante la "identación"
+sentencias es mediante la "identación".
 
 
     - declaración de función en java:

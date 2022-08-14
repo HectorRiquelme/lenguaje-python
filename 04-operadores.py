@@ -6,7 +6,7 @@ tema: 04 - operadores
        D - operadores lógicos
 
 ejercicio: 
-01 - calcular area de un rectángulo
+01 - calcular área de un rectángulo
 02 - par o impar
 03 - mayoria de edad
 04 - tienda de libros
@@ -70,7 +70,7 @@ tomando como base su valor actual:
 ::::::::::::::::::::::::::::::::::::::::::
 '''
 
-print('\n------ 01 - calcular area de un rectangulo ------\n')
+print('\n------ 01 - calcular área de un rectangulo ------\n')
 
 alto =  int(input('indicar alto de un rectangulo: '))
 ancho = int(input('indicar ancho del rectangulo: '))

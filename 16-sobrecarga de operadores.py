@@ -11,12 +11,12 @@ ejercicio:
                 A - sobrecarga de operadores
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-en el mundo del paradigma orientado a objetos es posible sobrecargar
-métodos, es decir, creamos un método nuevo llamado de igual que un método
-ya existente. La forma de diferenciarlos es identificando su signatura (parametros),
+en el mundo del paradigma orientado a objetos (POO) es posible sobrecargar
+métodos, es decir, creamos un método nuevo llamado de igual manera que un método 
+existente. La forma de diferenciarlos es identificando su signatura (parámetros),
 todo esto lo habíamos mencionado en el capítulo 11.
 
-Ahora bien, pensemos en qué es un método, se define como las acciones que puede realizar
+Ahora bien, pensemos... en qué es un método?, se define como las acciones que puede realizar
 un objeto, acción...?! , entonces cuando sumamos o restamos, estamos realizando una acción?,
 la respuesta es sí, con eso en mente, no suena ilógico el creer que es posible sobreescribir
 operadores como "+" o "-" , esto es completamente posible en python, solo necesitamos

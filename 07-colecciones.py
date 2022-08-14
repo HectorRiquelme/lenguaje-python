@@ -23,8 +23,8 @@ hemos visto como se almacenan en variables
 pero estas almacenan un solo dato,
 pero y si quisieramos almacenar muchos datos
 en una sola variable? ahí es donde aparecen
-las colecciones, de las cuales veremos sus
-similitudes y diferencias
+las colecciones en nuestras vidas, de las cuales 
+veremos sus similitudes y diferencias
 
 ::::::::::::::::::::::::::::::::::::
         B - listas
@@ -32,8 +32,8 @@ similitudes y diferencias
 
         lista = [dato1,dato2]
 
-las listas son una coleccion de objetos
-con un orden determinado (poseen indices) que pueden
+las listas son una colección de objetos
+con un orden determinado (poseen índices) que pueden
 ser modificados, eliminados y se pueden
 añadir nuevos elementos:
 
@@ -45,7 +45,7 @@ añadir nuevos elementos:
 
         lista.append(dato3)   #resultado: [dato1,dato2,dato3]
 
-3-. agregar elemento en una posición especifica:
+3-. agregar elemento en una posición específica:
 
         lista.insert(1,dato4) #resultado: [dato1,dato4,dato2,dato3]
 
@@ -57,7 +57,7 @@ añadir nuevos elementos:
 
         lista.remove(dato1)   #resultado: [dato4,dato2]
 
-6-. editar una posicion especifica de la lista:
+6-. editar una posición específica de la lista:
 
         lista[0]= dato99      #resultado: [dato99,dato2]
 
@@ -72,13 +72,13 @@ añadir nuevos elementos:
 
         tupla = (dato1,dato2)
 
-las tuplas al igual que las listas
-tienen un orden especifico (poseen indices), sin embargo,
-las tuplas no pueden ser modificadas.
-Por otro lado, la forma de recorrer y leer
-los datos de una tupla es igual a la de una lista.
-Si en algun caso necesitara alterar una tupla, sería
-necesario transformarla en una lista, realizar los cambios y luego
+las tuplas al igual que las listas tienen un orden 
+específico (poseen índices), sin embargo, las tuplas 
+no pueden ser modificadas.
+Por otro lado, la forma de recorrer y leerlos datos 
+de una tupla es igual a la de una lista. Si en algún 
+caso usted necesitara alterar una tupla, sería necesario 
+transformarla en una lista, realizar los cambios y luego
 volver a transformarla en una tupla
 
 1-. contar elementos de una tupla:
@@ -97,8 +97,8 @@ volver a transformarla en una tupla
    variable_set = {"dato1","dato2"}
 
 los elementos tipo set son colecciones
-que no poseen un orden en especifico(no poseen indices), por lo tanto
-no es valido intentar acceder a un espacio en
+que no poseen un orden en específico(no poseen índices), 
+por lo tanto no es válido intentar acceder a un espacio en
 específico para buscar algún dato,
 es editable, sin embargo, los datos ingresados
 no pueden repetirse
@@ -126,9 +126,9 @@ no pueden repetirse
         diccionario = { 'dato1':'datito1',
                         'dato2':'datito2' }
 
-los diccionarios son colecciones cuya informacion
+los diccionarios son colecciones cuya información
 esta compuesta por una llave y un valor asociado a esa llave,
-estos son modificables y no poseen un orden especifico (noposeen indices)
+estos son modificables y no poseen un orden específico (no poseen índices)
 
 1-. contar elementos de un diccionario:
 

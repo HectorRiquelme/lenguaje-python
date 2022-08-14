@@ -31,7 +31,7 @@ de él mientras la condición se siga cumpliendo
 el ciclo for es un ciclo o bucle
 en el cual se estará iterando por n
 número de veces que se determine en
-su condicion
+su condición
 
         for i in range(10):
                 print(i)
@@ -58,7 +58,7 @@ es decir,
 
 supongamos que estas haciendo uso de "for"
 el cual será recorrido 5 veces, pero usted desea
-que en tercer recorrido su código no ejecute la lógica
+que en el tercer recorrido su código no ejecute la lógica
 dentro del ciclo for y que salte al cuarto recorrido sin
 hacer nada de lo que está programado, eso quedaría
 de la siguiente forma:

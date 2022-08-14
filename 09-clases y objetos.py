@@ -7,7 +7,7 @@ tema:  09 - clases y objetos
         E - self y atributos de instancia
 
 ejercicio:
-01 - crear clase aritmetica 
+01 - crear clase aritmética 
 
 '''
 '''
@@ -18,13 +18,14 @@ ejercicio:
 el paradigma orientado a objetos responde a la necesidad de
 programar pensando en elementos abstractos de forma tal
 que estos puedan evolucionar en elementos más específicos 
-con sus características individuales. Por ejemplo:
+con sus características individuales.
 
+        Por ejemplo:
 
         i-. creamos un objeto vehículo que puede moverse y frenar
         ii-. creamos el objeto auto que hereda las funcionalidades de vehívulo
         iii-. creamos el objeto avion que hereda las funcionalidades de vehívulo
-                pero ademas le agregamos la funcionalidad de volar
+                pero además le agregamos la funcionalidad de volar
 
 
 las clases son la forma en la que creamos un objeto de forma programada,
@@ -115,10 +116,10 @@ y asignarle un nuevo valor
         objeto_persona.nombre = "kilua"
 
 
-esto en rigor, funciona, sin embargo, no es la forma correcta
+esto en rigor funciona, sin embargo, no es la forma correcta
 en la que debemos realizar dichos cambios, ya que no siempre será
 posible acceder a todos los datos de un objeto desde cualquier lugar.
-Este concepto es conocido como encapsulamiento el cual veremos más adelante.
+Este concepto es conocido como "encapsulamiento" el cual veremos más adelante.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
         D - métodos de instancia
@@ -126,7 +127,7 @@ Este concepto es conocido como encapsulamiento el cual veremos más adelante.
 
 un método es una funcionalidad o una 'funcion' que se agrega
 a una clase indicando una de las "acciones" que puede realizar este objeto.
-Entre los tipos de métodos existentes hay uno llamado "metodo de instancia"
+Entre los tipos de métodos existentes hay uno llamado "método de instancia"
 el cual puede hacer uso de las variables de instancia de un objeto.
 
 
@@ -134,15 +135,15 @@ el cual puede hacer uso de las variables de instancia de un objeto.
                         print(f'la persona {self.nombre} está hablando')
 
 
-la mánera de identificarlos es que hacen uso del parametro self
+la manera de identificarlos es que estos métodos hacen uso del parámetro "self"
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
         E - self y atributos de instancia
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-los atributos y metodos que hemos visto hasta este momento son conocidos
+los atributos y métodos que hemos visto hasta este momento son conocidos
 como "atributos y métodos de instancia", lo que quiere decir que dicha información
-es propia de la instancia creada y no del objetoen sí, más adelante veremos que
+es propia de la instancia creada y no del objeto en sí, más adelante veremos que
 existen otro tipo de variables a los cuales es posible acceder desde cualquier instancia,
 incluso directamente de la clase sin siquiera crear una instancia de la clase.
 
@@ -150,7 +151,7 @@ incluso directamente de la clase sin siquiera crear una instancia de la clase.
 #----------------------------------------------
 '''
 ::::::::::::::::::::::::::::::::::::::::::::::::
-    01 - crear clase aritmetica
+    01 - crear clase aritmética
 ::::::::::::::::::::::::::::::::::::::::::::::::
 '''
 print('\n01 - crear clase aritmetica\n')
